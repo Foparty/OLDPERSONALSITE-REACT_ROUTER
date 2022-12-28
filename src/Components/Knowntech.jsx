@@ -60,7 +60,7 @@ const Knowntech = () => {
               classes="icon-pill span-2"
               icoclasses="icon-ico"
               faicon="fa-brands fa-mdb"
-              widthpercentage={2}
+              widthpercentage={3}
               progressbg="bg-mdb"
             />
             <TechIconPill
