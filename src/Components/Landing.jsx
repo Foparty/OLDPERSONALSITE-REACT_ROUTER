@@ -32,7 +32,7 @@ const Landing = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="fa-brands fa-whatsapp fa-2x"></i>
+                  <i className="fa-brands fa-whatsapp fa-2x"></i>
                 </a>
               </li>
               <li>
