@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 6vh;
+}
+
+.nav-ico {
+  max-width: 4rem;
+}
+
+.main-nav {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  color: inherit;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: inherit;
+  font-family: var(--ff-poppins);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.toggle {
+  border: none;
+  background: none;
+  color: var(--fg);
+  cursor: pointer;
+}
