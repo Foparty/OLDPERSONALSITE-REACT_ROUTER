@@ -1,0 +1,138 @@
+.knowntech {
+  padding: 4rem 0;
+}
+
+.tech-container-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.tech-container-flex > * {
+  flex: 1;
+}
+
+@media (min-width: 40rem) {
+  .tech-container-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.4rem;
+}
+
+.span-1 {
+  grid-column: span 1;
+}
+.span-2 {
+  grid-column: span 2;
+}
+.span-3 {
+  grid-column: span 3;
+}
+.span-4 {
+  grid-column: span 4;
+}
+.span-5 {
+  grid-column: span 5;
+}
+.span-6 {
+  grid-column: span 6;
+}
+
+.tech-grid {
+  list-style: none;
+}
+
+.icon-pill {
+  background: rgba(40, 44, 52, 0.5);
+  /* background: var(--fg); */
+  display: flex;
+  justify-content: center;
+  color: var(--fg);
+  position: relative;
+  overflow: hidden;
+  -webkit-overflow: hidden;
+}
+.icon-ico {
+  z-index: 2;
+}
+.progressbar {
+  position: absolute;
+  bottom: 0;
+  left: -80%;
+  transform: translateX(-80%);
+  opacity: 0;
+  /* width: 100%; */
+  /* background: yellowgreen; */
+  color: #000;
+  height: 20vh;
+  transition: transform 0.6s;
+  z-index: 0;
+}
+.progressbar p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.icon-pill:hover {
+  transform: scale(1.03);
+  background: rgba(40, 44, 52, 0.8);
+
+  transition: transform, color 0.3s;
+}
+.icon-pill:hover .progressbar {
+  left: 0;
+  transform: translateX(0);
+  opacity: 1;
+}
+.bg-html {
+  /* color: #e54c25; */
+  background: #e54c25;
+}
+.bg-css {
+  background: #016fb9;
+}
+.bg-js {
+  background: #f4e11b;
+}
+.bg-sass {
+  background: #cf669b;
+}
+.bg-react {
+  background: #05d9fe;
+}
+.bg-bootstrap {
+  background: #8512fb;
+  /* background: white; */
+}
+.bg-tailwind {
+  background-image: linear-gradient(#ffffff, #0ed7b5);
+}
+
+.icon-ico {
+  padding: 1rem 0;
+}
+
+.rounded-top {
+  border-radius: var(--rounded) var(--rounded) 0 0;
+}
+.rounded-top-left {
+  border-radius: var(--rounded) 0 0 0;
+}
+.rounded-top-right {
+  border-radius: 0 var(--rounded) 0 0;
+}
+.rounded-bottom {
+  border-radius: 0 0 var(--rounded) var(--rounded);
+}
+.rounded-left {
+  border-radius: var(--rounded) 0 0 var(--rounded);
+}
+.rounded-right {
+  border-radius: 0 var(--rounded) var(--rounded) 0;
+}

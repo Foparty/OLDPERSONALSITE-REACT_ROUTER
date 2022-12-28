@@ -1,11 +1,12 @@
 import React from 'react';
 import './Home.css';
-import { Landing } from '../Components';
+import { Knowntech, Landing } from '../Components';
 
 const Home = () => {
   return (
     <>
       <Landing />
+      <Knowntech />
       {/* <section className="introimagecenterplautext">
         <h1 className="title-text underline hidden">why sparrow?</h1>
         <div className="container hidden">
