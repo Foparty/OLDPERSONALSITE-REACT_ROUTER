@@ -27,6 +27,8 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 0.4rem;
+  text-transform: uppercase;
+  font-family: var(--ff-poppins);
 }
 @media (min-width: 40rem) {
   .tech-grid {
@@ -78,10 +80,11 @@
   opacity: 0;
   /* width: 100%; */
   /* background: yellowgreen; */
-  color: #000;
-  height: 10vh;
+  /* color: #000; */
+  height: 15vh;
   transition: transform 0.6s;
   z-index: 0;
+  font-size: 0.7rem;
 }
 .progressbar p {
   position: absolute;
@@ -103,6 +106,7 @@
   transform: translateX(0);
   opacity: 1;
 }
+
 .bg-html {
   /* color: #e54c25; */
   background: #e54c25;
@@ -112,6 +116,9 @@
 }
 .bg-js {
   background: #f4e11b;
+}
+.bg-js p {
+  color: #253615;
 }
 .bg-sass {
   background: #cf669b;
@@ -182,6 +189,7 @@
   margin-bottom: 2rem;
 }
 .code {
+  font-size: 1.3rem;
   text-align: justify;
   font-family: var(--ff-code);
   max-width: 62ch;

@@ -2,7 +2,7 @@
   /* text-align: center; */
   border-bottom: 1px solid #e1e1e1;
 }
-@media (min-width: 62rem) {
+@media (min-width: 55rem) {
   .landing {
     border-bottom: 0;
   }
@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 62rem) {
+@media (min-width: 55rem) {
   .landing .container {
     flex-direction: row;
     /* width: 100vw; */
@@ -24,7 +24,7 @@
   height: 31vh;
   order: 1;
 }
-@media (min-width: 62rem) {
+@media (min-width: 55rem) {
   .image-container {
     height: 94vh;
     order: 2;
@@ -37,7 +37,7 @@
   object-fit: cover;
   object-position: center;
 }
-@media (min-width: 62rem) {
+@media (min-width: 55rem) {
   .image-container img {
     height: 94vh;
     object-position: center;
@@ -49,7 +49,7 @@
   padding: 4rem 0;
   order: 2;
 }
-@media (min-width: 62rem) {
+@media (min-width: 55rem) {
   .content-container {
     padding: 0 4rem;
     text-align: left;
@@ -75,7 +75,7 @@
   background: var(--fg);
   color: var(--bg);
 }
-@media (min-width: 62rem) {
+@media (min-width: 55rem) {
   .pill {
     width: fit-content;
   }
@@ -128,7 +128,7 @@
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
-@media (min-width: 62rem) {
+@media (min-width: 55rem) {
   .hero-description {
     text-align: left;
     margin-inline: 0;
@@ -165,7 +165,7 @@
   transition: transform 0.3s ease-in-out;
 }
 
-@media (min-width: 62rem) {
+@media (min-width: 55rem) {
   .social p:nth-child(2) {
     /* display: flex;
     gap: 1rem;

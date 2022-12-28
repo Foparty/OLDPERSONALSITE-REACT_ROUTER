@@ -12,84 +12,84 @@ const Knowntech = () => {
               classes="icon-pill span-2 rounded-top-left"
               icoclasses="icon-ico"
               faicon="fa-brands fa-html5"
-              widthpercentage={95}
+              widthpercentage={3}
               progressbg="bg-html"
             />
             <TechIconPill
               classes="icon-pill span-2"
               icoclasses="icon-ico"
               faicon="fa-brands fa-css3-alt"
-              widthpercentage={75}
+              widthpercentage={3}
               progressbg="bg-css"
             />
             <TechIconPill
               classes="icon-pill span-2 rounded-top-right"
               icoclasses="icon-ico"
               faicon="fa-brands fa-square-js"
-              widthpercentage={45}
+              widthpercentage={1}
               progressbg="bg-js"
             />
             <TechIconPill
               classes="icon-pill span-3"
               icoclasses="icon-ico"
               faicon="fa-brands fa-sass"
-              widthpercentage={65}
+              widthpercentage={2}
               progressbg="bg-sass"
             />
             <TechIconPill
               classes="icon-pill span-3"
               icoclasses="icon-ico"
               faicon="fa-brands fa-react"
-              widthpercentage={30}
+              widthpercentage={1}
               progressbg="bg-react"
             />
             <TechIconPill
               classes="icon-pill span-2"
               icoclasses="icon-ico"
               faicon="fa-brands fa-bootstrap"
-              widthpercentage={80}
+              widthpercentage={3}
               progressbg="bg-bootstrap"
             />
             <TechIconPillSvg
               classes="icon-pill span-2"
               icoclasses="icon-ico"
-              widthpercentage={70}
+              widthpercentage={1}
               progressbg="bg-tailwind"
             />
             <TechIconPill
               classes="icon-pill span-2"
               icoclasses="icon-ico"
               faicon="fa-brands fa-mdb"
-              widthpercentage={80}
+              widthpercentage={2}
               progressbg="bg-mdb"
             />
             <TechIconPill
               classes="icon-pill span-3"
               icoclasses="icon-ico"
               faicon="fa-brands fa-github"
-              widthpercentage={50}
+              widthpercentage={2}
               progressbg="bg-github"
             />
             <TechIconPill
               classes="icon-pill span-3"
               icoclasses="icon-ico"
               faicon="fa-brands fa-node-js"
-              widthpercentage={20}
+              widthpercentage={0}
               progressbg="bg-node"
             />
             <TechIconPill
               classes="icon-pill span-6 rounded-bottom"
               icoclasses="icon-ico"
               faicon="fa-brands fa-npm"
-              widthpercentage={80}
+              widthpercentage={2}
               progressbg="bg-npm"
             />
           </ul>
           <div className="content-tech">
             <h2 className="title">myStack( );</h2>
             <p className="code">
-              Improving and adding new technologies to my Stack every day. Contact me and let me
-              help you or you business take the next step!
+              So here is where I say something very smart that will make you contact me and pay me
+              lots of money!
             </p>
             <p className="code">Logic games and fixing bugs ❤️ = exercise for the brain 🧠</p>
           </div>
