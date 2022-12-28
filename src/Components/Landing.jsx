@@ -1,5 +1,5 @@
 import React from 'react';
-import { hero3 } from '../assets';
+import { hero4 } from '../assets';
 import './Landing.css';
 import { SocialLogo } from './index';
 
@@ -42,7 +42,7 @@ const Landing = () => {
         </div>
         <div className="image-container slider">
           <div className="slider-items">
-            <img src={hero3} alt="" className="slider-item" />
+            <img src={hero4} alt="" className="slider-item" />
             {/* <img src={hero2} alt="" className="slider-item" />
             <img src={hero3} alt="" className="slider-item" /> */}
           </div>
