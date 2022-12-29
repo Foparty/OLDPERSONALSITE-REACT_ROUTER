@@ -1,30 +1,17 @@
 import React from 'react';
 import './Home.css';
 import { Knowntech, Landing } from '../Components';
+import Paralax from './Paralax';
+import { Workpreview } from './';
 
 const Home = () => {
   return (
     <>
       <Landing />
       <Knowntech />
-      {/* <section className="introimagecenterplautext">
-        <h1 className="title-text underline hidden">why sparrow?</h1>
-        <div className="container hidden">
-          <p className="italic">
-            A robust set of layouts, built-in elements, colors, typography, and css helpers —
-            rigorously tested and optimized, gives you the perfect starting point for landing
-            pagesand stylish business websites.
-          </p>
-          <img src="./img/img1.jpg" alt="" />
-          <div className="imgsubcontent">
-            <h4>bootstrap 5 + much more</h4>
-            <p>
-              Full coverage of Bootstrap's core components plus a suite of additional time-saving
-              elements makes sparrow highly customizable in a powerful but simple way.
-            </p>
-          </div>
-        </div>
-      </section>
+      <Paralax />
+      <Workpreview />
+      {/*
       <section className="paralax-container">
         <img src="./img/paralax1.jpg" className="paralax-background" alt="" />
         <h3 className="paralax-foreground">Texto o boton que va por encima</h3>

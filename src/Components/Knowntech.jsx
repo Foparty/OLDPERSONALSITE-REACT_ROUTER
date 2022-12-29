@@ -88,10 +88,13 @@ const Knowntech = () => {
           <div className="content-tech">
             <h2 className="title">myStack( );</h2>
             <p className="code">
-              So here is where I say something very smart that will make you contact me and pay me
-              lots of money!
+              Passionate human, future father and husband, massage therapist, problem solver, and
+              yeah... sometimes I code to make your projects come to life!
             </p>
-            <p className="code">Logic games and fixing bugs ❤️ = exercise for the brain 🧠</p>
+            <p className="code">
+              So here was where I was suppose to say something very smart that will make you contact
+              me and pay me lots of money!
+            </p>
           </div>
         </div>
       </div>
