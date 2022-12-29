@@ -117,7 +117,7 @@ select {
 }
 
 .container {
-  width: min(100% - 2rem, 62rem);
+  width: calc(100% - 2rem);
   margin-inline: auto;
 }
 
