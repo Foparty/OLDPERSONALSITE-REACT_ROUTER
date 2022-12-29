@@ -7,13 +7,11 @@ import { Home, Blog } from './Containers';
 function App() {
   return (
     <BrowserRouter>
-      <div className="paralax-wrapper">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
-        </Routes>
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
     </BrowserRouter>
   );
 }
