@@ -30,8 +30,8 @@
   align-self: center;
   /* si fuese otro objeto tambien se le puede añadir la linea de abajo para 
   que se mueva de manera diferente con respecto a los demas objetos de la pagina */
-  /* transform: translateZ(-5px) scale(1.5); */
-}
+/* transform: translateZ(-5px) scale(1.5); */
+/* }
 
 .paralax-background,
 .paralax-foreground {
@@ -39,4 +39,4 @@
   width: 100%;
   object-fit: cover;
   z-index: -10;
-} */
+}*/
