@@ -6,3 +6,4 @@ export { default as Knowntech } from './Knowntech';
 export { default as TechIconPill } from './TechIconPill';
 export { default as TechIconPillSvg } from './TechIconPillSvg';
 export { default as Imagen } from './Imagen';
+export { default as FemProject } from './FemProject';

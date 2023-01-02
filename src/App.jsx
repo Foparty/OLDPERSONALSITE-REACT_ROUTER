@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar';
-import { Home, Blog } from './Containers';
+import { Home, Blog, Fem } from './Containers';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/fem" element={<Fem />} />
       </Routes>
     </BrowserRouter>
   );

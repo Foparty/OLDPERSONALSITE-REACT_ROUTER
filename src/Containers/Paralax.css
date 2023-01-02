@@ -16,6 +16,7 @@
   z-index: -10;
 }
 
+
 .paralax-background {
   transform: translateZ(-10px) scale(2);
   height: 50vh;
@@ -40,3 +41,12 @@
   object-fit: cover;
   z-index: -10;
 }*/
+
+.paralax-container {
+  height: 50vh;
+}
+.paralax-container img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}

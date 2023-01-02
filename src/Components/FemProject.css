@@ -1,0 +1,53 @@
+.femcard {
+  grid-column: span 6;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  border-radius: 0.7895rem;
+  overflow: hidden;
+}
+.femcard__imgcontainer {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.femcard__image {
+}
+
+.femcard__datacontainer {
+  grid-area: 1 / 1 / 2 / 2;
+  align-items: baseline;
+  align-self: flex-end;
+  background: rgba(0, 0, 0, 0.5);
+  /* display: none; */
+  display: none;
+  justify-content: space-between;
+  padding: 0.3rem 1rem;
+}
+.femcard__title {
+  font-size: 1rem;
+}
+
+.data__buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (max-width: 30rem) {
+  .femcard__datacontainer {
+    display: none;
+  }
+}
+@media (min-width: 50rem) {
+  .femcard {
+    grid-column: span 4;
+  }
+}
+
+@media (min-width: 80rem) {
+  .femcard {
+    grid-column: span 3;
+  }
+  .femcard__datacontainer {
+    display: flex;
+  }
+}

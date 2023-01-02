@@ -1,0 +1,13 @@
+.fem {
+  width: calc(100% - 2rem);
+  margin-inline: auto;
+  text-align: center;
+}
+.fem p {
+  margin-bottom: 2rem;
+}
+.femprojects {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.4rem;
+}
