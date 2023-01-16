@@ -6,8 +6,8 @@ import { FemProject } from '../Components';
 const Fem = () => {
   return (
     <section className="fem">
-      <h1>Front end mentor's site challenges</h1>
-      <p>feel free to go check the code and don't forget to drop your ❤️</p>
+      <h1>Front end mentor&apos;s site challenges</h1>
+      <p>feel free to go check the code and don&apos;t forget to drop your ❤️</p>
       <div className="projects-container femprojects">
         <FemProject
           name="Rating Card Component"

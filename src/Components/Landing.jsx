@@ -1,5 +1,5 @@
 import React from 'react';
-import { hero5 } from '../assets';
+import { mac2, hero5, desk1 } from '../assets';
 import './Landing.css';
 import { SocialLogo } from './index';
 

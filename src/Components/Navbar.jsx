@@ -5,6 +5,9 @@ import { Navlink } from './';
 import './Navbar.css';
 
 const Navbar = () => {
+  const darkMode = function () {
+    document.body.classList.toggle('dark');
+  };
   return (
     <header className="section">
       <div className="container navbar">
@@ -17,14 +20,7 @@ const Navbar = () => {
             <Navlink to="/fem" link="Fem" />
             <Navlink to="/blog" link="Blog" />
             <li className="nav-link">
-              <button
-                onClick={() => {
-                  document.querySelector('.toggle').addEventListener('click', () => {
-                    document.body.classList.toggle('dark');
-                  });
-                }}
-                className="toggle"
-              >
+              <button onClick={darkMode} className="toggle">
                 <i className="fa-solid fa-toggle-on"></i>
               </button>
             </li>

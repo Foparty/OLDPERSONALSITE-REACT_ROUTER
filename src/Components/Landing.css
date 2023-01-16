@@ -181,3 +181,10 @@
     padding-left: 1rem;
   }
 }
+
+.slider-item {
+  /* mix-blend-mode: overlay; */
+  transform: scaleX(-1);
+  width: 50%;
+  height: auto;
+}
