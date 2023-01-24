@@ -8,7 +8,10 @@ const Landing = () => {
     <section className="landing section">
       <div className="container">
         <div className="content-container">
-          <p className="pill">frontend mercenary</p>
+          <div className="pill-container">
+            <p className="pill-over">CSS focused</p>
+            <p className="pill">frontend mercenary</p>
+          </div>
           <div className="title-text">
             <h1>Hey 👋 it&apos;s</h1>
             <p className="gradient-text-1">Alfonso</p>

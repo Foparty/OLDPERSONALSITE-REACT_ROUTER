@@ -18,3 +18,4 @@ export { default as fem8 } from './fem8.png';
 export { default as mac1 } from './mac1.png';
 export { default as mac2 } from './mac2.png';
 export { default as desk1 } from './desk1.png';
+export { default as parabg } from './paralax.png';
