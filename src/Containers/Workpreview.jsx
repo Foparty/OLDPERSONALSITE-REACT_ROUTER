@@ -1,13 +1,15 @@
 import React from 'react';
+import WorkProject from '../Components/WorkProject';
 import './Workpreview.css';
 
 const Workpreview = () => {
   return (
     <section className="work section">
-      <h1>work</h1>
-      <p>
+      <h2>work</h2>
+      {/* <p>
         in progress...<span className="emoji">👷‍♂️⚠️</span>
-      </p>
+      </p> */}
+      <WorkProject />
     </section>
   );
 };

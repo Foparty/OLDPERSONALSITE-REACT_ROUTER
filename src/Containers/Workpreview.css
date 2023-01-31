@@ -1,6 +1,17 @@
 .work {
-  padding: 10rem 0;
+  padding: 3rem 0;
+  text-align: left;
+}
+
+.work.section {
+  width: min(100% - 2rem, 60rem);
+  margin-inline: auto;
+  margin-bottom: 6rem;
+}
+
+.work h2 {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .emoji {
