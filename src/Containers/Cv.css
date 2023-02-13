@@ -1,0 +1,99 @@
+.cv {
+  padding-top: 2rem;
+  flex-direction: column;
+  width: min(100% - 2rem, 65rem);
+  margin-inline: auto;
+  display: flex;
+}
+
+.cv-info {
+  flex: 0.25;
+  border: solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: auto;
+}
+.cv-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.cv-nav {
+  list-style: none;
+}
+.cv-info li + li {
+  margin-top: 0.8rem;
+}
+.cv-nav li a {
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cv-info p,
+.cv-info ul {
+  list-style: none;
+  padding: 0 1rem;
+  margin-bottom: 1.3rem;
+  max-width: 35ch;
+  align-self: flex-start;
+}
+.cv-info ul li {
+  padding: 0 1rem;
+}
+ul.language {
+  padding: 0 1rem 1rem 1rem;
+}
+ul.language li + li {
+  margin-top: 0;
+}
+.cv-data {
+  flex: 0.75;
+  border: solid red;
+}
+
+.cv-avatar {
+  max-width: 9rem;
+  border-radius: 50%;
+}
+
+/* ------------------------------------cv-data------------------------------------ */
+.cv-data {
+  padding: 1rem;
+}
+.cv-data h2 {
+  font-weight: 900;
+}
+
+.cv-work,
+.cv-studies {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.cv-work li,
+.cv-studies li {
+  border: solid green;
+  display: flex;
+  margin-bottom: 1.6rem;
+}
+.date {
+  flex: 0.2;
+  text-align: right;
+  margin-right: 0.5rem;
+  border: solid yellow;
+}
+.data {
+  flex: 0.8;
+  border: solid yellow;
+}
+
+/* -----------------------------------media queries----------------------------------- */
+@media (min-width: 65rem) {
+  .cv {
+    flex-direction: row;
+  }
+}

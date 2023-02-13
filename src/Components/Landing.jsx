@@ -25,7 +25,7 @@ const Landing = () => {
             <p className="gradient-text-3">contact me:</p>
             <ul className="social-nav">
               <SocialLogo
-                href="mailto:alfonsomartingarcia@gmail.com?subject=Got a Job for you&body=Hello Alfonso! let's talk about my project!:"
+                href="mailto:alfonsomg.dev@gmail.com?subject=Got a Job for you&body=Hello Alfonso! let's talk about my project!:"
                 faicon="fa-solid fa-envelope fa-2x"
               />
               <SocialLogo

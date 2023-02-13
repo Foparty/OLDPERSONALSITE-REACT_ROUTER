@@ -20,3 +20,4 @@ export { default as mac2 } from './mac2.png';
 export { default as desk1 } from './desk1.png';
 export { default as parabg } from './paralax.png';
 export { default as gabriel } from './gabrielasdrubal.png';
+export { default as avatar } from './profiletest.jpg';
