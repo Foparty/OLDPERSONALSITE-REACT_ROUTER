@@ -8,7 +8,6 @@
 
 .cv-info {
   flex: 0.25;
-  border: solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +51,6 @@ ul.language li + li {
 }
 .cv-data {
   flex: 0.75;
-  border: solid red;
 }
 
 .cv-avatar {
@@ -76,7 +74,6 @@ ul.language li + li {
 
 .cv-work li,
 .cv-studies li {
-  border: solid green;
   display: flex;
   margin-bottom: 1.6rem;
 }
@@ -84,11 +81,9 @@ ul.language li + li {
   flex: 0.2;
   text-align: right;
   margin-right: 0.5rem;
-  border: solid yellow;
 }
 .data {
   flex: 0.8;
-  border: solid yellow;
 }
 
 /* -----------------------------------media queries----------------------------------- */
