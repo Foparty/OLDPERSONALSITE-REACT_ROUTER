@@ -91,10 +91,6 @@ const Knowntech = () => {
               Passionate human, future father and husband, massage therapist, problem solver, and
               yeah... sometimes I code to make your projects come to life!
             </p>
-            <p className="code">
-              So here was where I was suppose to say something very smart that will make you contact
-              me and pay me lots of money!
-            </p>
           </div>
         </div>
       </div>
