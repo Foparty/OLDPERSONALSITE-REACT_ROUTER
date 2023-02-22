@@ -21,3 +21,4 @@ export { default as desk1 } from './desk1.png';
 export { default as parabg } from './paralax.png';
 export { default as gabriel } from './gabrielasdrubal.png';
 export { default as avatar } from './profiletest.jpg';
+export { default as land1 } from './land1.jpg';

@@ -197,7 +197,7 @@
 
 .slider-item {
   /* mix-blend-mode: overlay; */
-  transform: scaleX(-1);
+  transform: scaleX(1);
   width: 50%;
   height: auto;
 }
