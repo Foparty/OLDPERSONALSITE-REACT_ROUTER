@@ -45,7 +45,7 @@ const Landing = () => {
         </div>
         <div className="image-container slider">
           <div className="slider-items">
-            <img src={land1} alt="" className="slider-item" />
+            <img src={hero5} alt="" className="slider-item" />
             {/* <img src={hero2} alt="" className="slider-item" />
             <img src={hero3} alt="" className="slider-item" /> */}
           </div>
