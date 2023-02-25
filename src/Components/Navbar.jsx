@@ -12,7 +12,8 @@ const Navbar = () => {
     <header className="section">
       <div className="container navbar">
         <Link to="/">
-          <img className="nav-ico" src={ico} alt="" />
+          <p className="nav-ico-text">Alfonso Martín</p>
+          {/* <img className="nav-ico" src={ico} alt="" /> */}
         </Link>
         <nav>
           <ul className="main-nav">

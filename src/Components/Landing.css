@@ -39,7 +39,7 @@
 }
 @media (min-width: 55rem) {
   .image-container {
-    height: 94vh;
+    height: 100vh;
     order: 2;
     width: 50%;
   }
@@ -52,7 +52,7 @@
 }
 @media (min-width: 55rem) {
   .image-container img {
-    height: 94vh;
+    height: 100vh;
     object-position: center;
   }
 }
