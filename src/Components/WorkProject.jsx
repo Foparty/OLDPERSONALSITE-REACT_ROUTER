@@ -11,8 +11,8 @@ const WorkProject = ({ url, img, title, description }) => {
         <a href={url} target="_blank" rel="noreferrer">
           <h3 className="project-title">{title}</h3>
         </a>
-        <h4>Project Description:</h4>
-        <p>{description}</p>
+        {/* <h4>Project Description:</h4> */}
+        {/* <p>{description}</p> */}
       </aside>
     </article>
   );
