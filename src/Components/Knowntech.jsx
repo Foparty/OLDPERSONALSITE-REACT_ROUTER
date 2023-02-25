@@ -88,8 +88,8 @@ const Knowntech = () => {
           <div className="content-tech">
             <h2 className="title">myStack( );</h2>
             <p className="code">
-              Passionate human, future father and husband, massage therapist, problem solver, and
-              yeah... sometimes I code to make your projects come to life!
+              Passionate human, future father and husband, problem solver, and yeah... sometimes I
+              code to make your projects come to life!
             </p>
           </div>
         </div>

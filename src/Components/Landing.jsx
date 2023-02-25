@@ -9,8 +9,8 @@ const Landing = () => {
       <div className="container">
         <div className="content-container">
           <div className="pill-container">
-            <p className="pill-over">CSS focused</p>
-            <p className="pill">frontend mercenary</p>
+            {/* <p className="pill-over">CSS focused</p> */}
+            <p className="pill">front-end developer</p>
           </div>
           <div className="title-text">
             <h1>Hey 👋 it&apos;s</h1>
