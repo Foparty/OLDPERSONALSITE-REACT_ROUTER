@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Landing />
       <Knowntech />
-      <Paralax />
+      {/* <Paralax /> */}
       <Workpreview />
     </>
   );
