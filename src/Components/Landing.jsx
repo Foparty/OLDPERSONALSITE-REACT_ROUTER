@@ -35,7 +35,7 @@ const Landing = () => {
                 rel="noreferrer"
               />
               <SocialLogo
-                href="https://twitter.com/foindev"
+                href="https://twitter.com/alfonsogorka"
                 faicon="fa-brands fa-twitter fa-2x"
                 target="_blank"
                 rel="noreferrer"
