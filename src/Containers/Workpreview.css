@@ -10,6 +10,9 @@
 }
 
 .work h2 {
+  font-size: 3.1rem;
+  font-weight: 900;
+  font-family: var(--poppins);
   text-align: center;
   margin-bottom: 2rem;
 }
