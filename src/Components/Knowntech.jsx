@@ -85,13 +85,13 @@ const Knowntech = () => {
               progressbg="bg-npm"
             />
           </ul>
-          <div className="content-tech">
+          {/* <div className="content-tech">
             <h2 className="title">myStack( );</h2>
             <p className="code">
-              Passionate human, future father and husband, problem solver, and yeah... sometimes I
+              Passionate human, husband, problem solver, and yeah... sometimes I
               code to make your projects come to life!
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

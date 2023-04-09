@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar';
 import { Home, Blog, Fem, Cv } from './Containers';
 
 function App() {
+  const things = '';
+  console.log(things);
   return (
     <BrowserRouter>
       <Navbar />
